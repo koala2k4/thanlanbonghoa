@@ -14,7 +14,7 @@ const CONFIG = {
     btnReply: 'Click diệu kì💞',
     reply: 'Iu thằn lằn lun đúng vì nó chưa bao giờ sai 😍😍',
     mess: 'Mình biết mà 🥰. Yêu bạn nhiều nhiều 😘😘',
-    messDesc: 'Một ngày là anh em. Mãi mãi là anh em',
+    messDesc: 'Một ngày là anh em. Mãi mãi là anh em 🤟🤟🤟',
     btnAccept: 'Mãi iu thằn nằn <3',
-    messLink: 'https://www.messenger.com/t/5408440219167926' //link mess của các bạn. VD: https://m.me/nam.nodemy
+    messLink: 'https://www.messenger.com/t/5408440219167926' //link mess của các bạn. 
 }
