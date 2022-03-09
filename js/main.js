@@ -28,8 +28,8 @@ function init() {
 }
 
 function firstQuestion() {
-	var audioo = new Audio('sound/sound.mp3');
-    audioo.play();
+	var audio = new Audio('sound/sound.mp3');
+    audio.play();
     $('.content').hide();
     Swal.fire({
         title: CONFIG.introTitle,
