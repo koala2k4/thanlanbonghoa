@@ -12,6 +12,8 @@ $(document).ready(function() {
 
 function init() {
     document.getElementById('titleWeb').innerHTML = CONFIG.titleWeb
+	var audio = new Audio('sound/sound.mp3');
+    audio.play();
     $('#title').text(CONFIG.title)
     $('#desc').text(CONFIG.desc)
     $('#yes').text(CONFIG.btnYes)
@@ -28,8 +30,6 @@ function init() {
 }
 
 function firstQuestion() {
-	var audio = new Audio('sound/sound.mp3');
-    audio.play();
     $('.content').hide();
     Swal.fire({
         title: CONFIG.introTitle,
