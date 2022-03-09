@@ -1,6 +1,8 @@
 $(document).ready(function() {
     // process bar
     setTimeout(function() {
+	    var audiot = new Audio('sound/sound.mp3');
+   		 audiot.play();
         firstQuestion();
         $('.spinner').fadeOut();
         $('#preloader').delay(350).fadeOut('slow');
@@ -28,8 +30,6 @@ function init() {
 }
 
 function firstQuestion() {
-	var audio = new Audio('sound/sound.mp3');
-    audio.play();
     $('.content').hide();
     Swal.fire({
         title: CONFIG.introTitle,
